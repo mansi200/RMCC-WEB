@@ -176,6 +176,9 @@ body {
     z-index: 99999;
     
 }
+.navbar-icon{
+    color: #2faa1c;
+}
 
 form btn{
     margin-top: 0;
@@ -358,11 +361,16 @@ form btn{
     text-align: left;
 }
 
+.abt-square{
+    color: #44bd32;
+}
+
 @keyframes ghurvai{
     0%{transform: rotate(0);}
     50%{transform: rotate(10deg);}
    70%{transform: rotate(0);transition: ease-in-out;}
 }
+
 
 /*========================  gallery Part css goes here =================*/
 

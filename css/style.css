@@ -176,7 +176,55 @@ body {
     z-index: 99999;
     
 }
-
+.navbar-icon{
+    color: #2faa1c;
+}
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #2faa1c;
+  }
+  .icon-container a i {
+    font-size: 24px; / Adjust the size as per your preference /
+  }
+  .icon-container div {
+    margin-right: 11px; / Adjust the space as per your preference /
+  }
+  /*.circle {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 50px;
+      height: 50px;
+      border: 2px solid #53000E;
+      border-radius: 50%;
+      margin: 10px;
+      background-color: #53000E;
+    }*/
+  
+  .icon {
+    font-size: 20px;
+    color: white;
+    line-height: 1;
+  }
+  
+  
+  .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    margin-left: 10px;
+  }
+  
+  .info-text {
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+  }
 form btn{
     margin-top: 0;
     color: #fff;
@@ -358,11 +406,16 @@ form btn{
     text-align: left;
 }
 
+.abt-square{
+    color: #44bd32;
+}
+
 @keyframes ghurvai{
     0%{transform: rotate(0);}
     50%{transform: rotate(10deg);}
    70%{transform: rotate(0);transition: ease-in-out;}
 }
+
 
 /*========================  gallery Part css goes here =================*/
 
